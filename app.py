@@ -12,6 +12,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
 from typing import Tuple, Dict
+import os
+IMG_PATH = os.path.join(os.path.dirname(__file__), "diagram.png")
+
 
 # Soil type K-value ranges
 SOIL_TYPES: Dict[str, Dict[str, float]] = {
@@ -21,7 +24,6 @@ SOIL_TYPES: Dict[str, Dict[str, float]] = {
 }
 
 N_POINTS = 800
-IMG_PATH = r"C:\Users\dean4\OneDrive\Desktop\Year 4\4600\diagram.png"
 
 
 def gaussian_settlement(y: np.ndarray, smax: float, i: float) -> np.ndarray:
@@ -300,4 +302,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
