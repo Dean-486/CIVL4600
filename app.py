@@ -1,6 +1,6 @@
 """
 Greenfield Surface Settlement Screening Tool
-UQ CIVL4600 - Shallow Transport Tunnels in Residual Soils
+UQ CIVL4600 - Shallow Transport Tunnels in Residual Soils - Dean Blumson - Dr Jurij Karlovsek
 
 Gaussian settlement trough: S(y) = Smax * exp(-y²/(2*i²))
 where i = K * z0, with soil-type dependent K values
@@ -304,3 +304,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
