@@ -121,7 +121,7 @@ def main():
     
     # Main panel header and description
     st.title("🚇 Greenfield Surface Settlement Screening Tool")
-    st.markdown("**UQ CIVL4600 – Shallow Transport Tunnels**")
+    st.markdown("**UQ CIVL4600 - Shallow Transport Tunnels in Residual Soils - Dean Blumson - Dr Jurij Karlovsek**")
     
     st.markdown("""
     This tool applies the Gaussian settlement trough model
@@ -304,4 +304,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
